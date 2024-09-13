@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Programas utilizando funciones</h1>
+
+    <!-- Programa 1: Calcular superficie de un triángulo -->
+    <section>
+        <h2>1. Calcular superficie de un triángulo</h2>
+        <label for="base">Base:</label>
+        <input type="number" id="base" placeholder="Base del triángulo">
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" placeholder="Altura del triángulo">
+        <button onclick="calcularSuperficie()">Calcular Superficie</button>
+        <p id="resultado-superficie"></p>
+    </section>
+
+    <!-- Programa 2: Solicitar datos personales -->
+    <section>
+        <h2>2. Solicitar datos personales</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Edad">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Correo electrónico">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" placeholder="Dirección">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" placeholder="Teléfono">
+        <button onclick="mostrarDatos()">Mostrar Datos</button>
+        <div id="datos-personales"></div>
+    </section>
+
+    <!-- Programa 3: Calcular sueldo de 5 trabajadores -->
+    <section>
+        <h2>3. Calcular sueldo de 5 trabajadores</h2>
+        <div id="trabajadores"></div>
+        <button onclick="calcularSueldo()">Calcular Total de Nómina</button>
+        <p id="resultado-sueldo"></p>
+    </section>
+
+    <!-- Programa 4: Calcular promedio de un alumno -->
+    <section>
+        <h2>4. Calcular promedio de un alumno</h2>
+        <label for="materia1">Materia 1:</label>
+        <input type="number" id="materia1" placeholder="Calificación Materia 1">
+        <label for="materia2">Materia 2:</label>
+        <input type="number" id="materia2" placeholder="Calificación Materia 2">
+        <label for="materia3">Materia 3:</label>
+        <input type="number" id="materia3" placeholder="Calificación Materia 3">
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="resultado-promedio"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
